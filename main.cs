@@ -27,7 +27,6 @@ class Program
 
         int sumOfAngles = Number((angleA).toFixed(2)) + Number((angleB).toFixed(2)) + Number((angleC).toFixed(2))
 
-
         if (sumOfAngles == 180)
         {
             if ((a == b) && (b == c) && (c == a))
