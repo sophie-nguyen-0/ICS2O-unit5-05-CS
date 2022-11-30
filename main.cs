@@ -21,11 +21,11 @@ class Program
         Console.Write("Enter length c: ");
         c = Convert.ToInt32(Console.ReadLine());
 
-        double angleA = Math.Acos((Math.Pow(b,2) + Math.Pow(c,2) - Math.Pow(a,2)) / (2 * b * c)) * (180/Math.PI);
-        double angleB = Math.Acos((Math.Pow(c,2) + Math.Pow(a,2) - Math.Pow(b,2)) / (2 * c * a)) * (180/Math.PI);
-        double angleC = Math.Acos((Math.Pow(a,2) + Math.Pow(b,2) - Math.Pow(c,2)) / (2 * a * b)) * (180/Math.PI);
-            
-        double sumOfAngles = (Math.Round(angleA,2)) + (Math.Round(angleB,2)) + (Math.Round(angleC,2));
+        double angleA = Math.Acos((Math.Pow(b, 2) + Math.Pow(c, 2) - Math.Pow(a, 2)) / (2 * b * c)) * (180 / Math.PI);
+        double angleB = Math.Acos((Math.Pow(c, 2) + Math.Pow(a, 2) - Math.Pow(b, 2)) / (2 * c * a)) * (180 / Math.PI);
+        double angleC = Math.Acos((Math.Pow(a, 2) + Math.Pow(b, 2) - Math.Pow(c, 2)) / (2 * a * b)) * (180 / Math.PI);
+
+        double sumOfAngles = (Math.Round(angleA, 2)) + (Math.Round(angleB, 2)) + (Math.Round(angleC, 2));
 
         if (sumOfAngles == 180)
         {
