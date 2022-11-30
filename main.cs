@@ -33,14 +33,14 @@ class Program
             {
                 Console.WriteLine("It's an equilateral triangle!");
             }
-          else if ((a == b) || (b == c) || (a == c))
-          {
-              Console.WriteLine("It's an isosceles triangle!");
-          }
-          else
-          {
-              Console.WriteLine("It's a scalene triangle!");
-          }
+            else if ((a == b) || (b == c) || (a == c))
+            {
+                Console.WriteLine("It's an isosceles triangle!");
+            }
+            else
+            {
+                Console.WriteLine("It's a scalene triangle!");
+            }
         }
         else
         {
